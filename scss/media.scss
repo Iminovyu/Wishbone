@@ -1,0 +1,66 @@
+@media (max-width:900px) {
+      .firm{
+            &-content{
+                  flex-direction: column;
+                  text-align: center;
+                  align-items: center;
+                  gap: 25px;
+            }
+            &-left{
+                  padding-left: 0;
+                  text-align: center;
+            }
+            &-right{
+                  .person{
+                        justify-content: center;
+                  }
+            }
+      }
+}
+
+@media (max-width: 790px) {
+      .nav{
+            &-links{
+                  display: none;
+            }
+            &-left{
+                  .bars{
+                        display: block;
+                  }
+            }
+      }
+}
+@media (max-width:540px) {
+      .hero{
+            &-left{
+                  span{
+                        color: #fff;
+                  }
+                  h1{
+                        color: #fff;
+                        font-size: 34px;
+                        line-height: 50.4px;
+                  }
+                  p{
+                        color: #fff;
+                        font-size: 14px;
+                  }
+                  button{
+                        color: #fff;
+                  }
+            }
+      }
+}
+@media (max-width: 460px) {
+      .nav{
+            position: relative;
+            &-content{
+                  flex-direction: column;
+                  gap: 25px;  
+            }
+            &-left{
+                  justify-content: space-between;
+                  width: 100%;
+            }
+      }
+}

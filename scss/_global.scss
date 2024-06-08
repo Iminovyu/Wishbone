@@ -8,6 +8,15 @@
       padding: 0 10px;
       margin: 0 auto;
 }
+html{
+      height: 100%;
+}
 body{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
       font-family: 'Poppins';
+}
+main{
+      flex: 1;
 }
