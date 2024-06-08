@@ -81,7 +81,7 @@
             left: 0;
             transform: translateX(-110%);
             background: #ece7e4e8;
-            transition: all 0.4s linear;
+            transition:  0.4s linear;
 
             &-links {
                   list-style: none;
@@ -249,6 +249,15 @@
                         font-weight: 400;
                         line-height: 24px;
                   }
+            }
+      }
+}
+
+.proces {
+      &-content {
+            .text{
+                  display: flex;
+                  align-items: center;
             }
       }
 }
