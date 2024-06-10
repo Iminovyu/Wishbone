@@ -601,3 +601,181 @@
             }
       }
 }
+
+.team {
+      padding: 100px 0;
+
+      &-content {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 16px;
+      }
+
+      &-left {
+            max-width: 358px;
+
+            h1 {
+                  margin-bottom: 14px;
+                  color: #403E3B;
+                  font-size: 32px;
+                  font-weight: 400;
+                  line-height: 38px;
+            }
+
+            p {
+                  color: #645C55;
+                  font-size: 15px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  margin-bottom: 30px;
+            }
+
+            button {
+                  background: transparent;
+                  border: 0;
+                  outline: 0;
+                  cursor: pointer;
+                  color: #1B1A1A;
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  letter-spacing: 0.4000000059604645px;
+                  padding: 11px 20px;
+            }
+      }
+
+      &-right {
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            column-gap: 100px;
+            row-gap: 36px;
+
+            .person {
+                  display: flex;
+                  align-items: center;
+                  gap: 30px;
+                  padding: 8px;
+
+                  &-img {
+                        width: 84px;
+                        height: 84px;
+
+                        img {
+                              width: inherit;
+                              height: inherit;
+                              border: 3px solid #CEC4BC;
+                              border-radius: 50%;
+                        }
+                  }
+
+                  .text {
+                        display: flex;
+                        align-items: flex-start;
+                        flex-direction: column;
+
+                        h3 {
+                              color: #1B1A1A;
+                              font-size: 17px;
+                              font-weight: 400;
+                              line-height: 26px;
+                        }
+
+                        p {
+                              color: #645C55;
+                              font-size: 14px;
+                              font-weight: 400;
+                              line-height: 14px;
+                        }
+                  }
+            }
+      }
+}
+
+.touch {
+      background: #CEC4BC;
+      padding: 100px 0;
+
+      &-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .text {
+                  max-width: 569px;
+
+                  span {
+                        text-transform: uppercase;
+                        color: #645C55;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        letter-spacing: 2px;
+                  }
+
+                  h1 {
+                        color: #1B1A1A;
+                        font-size: 40px;
+                        font-weight: 400;
+                        line-height: 42px;
+                  }
+            }
+
+            button {
+                  background: transparent;
+                  border: 0;
+                  outline: 0;
+                  cursor: pointer;
+                  color: #1B1A1A;
+                  padding: 11px 20px;
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  letter-spacing: 0.4000000059604645px;
+            }
+      }
+}
+
+.footer {
+      padding: 60px 0;
+
+      &-content {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 25px;
+
+            .text {
+                  display: flex;
+                  align-items: flex-start;
+                  flex-direction: column;
+                  gap: 20px;
+
+                  .logo {
+                        width: 256px;
+                        height: 22px;
+
+                        img {
+                              width: inherit;
+                              height: inherit;
+                        }
+                  }
+
+                  .about {
+                        p {
+                              color: #645C55;
+                              font-size: 14px;
+                              font-weight: 400;
+                              line-height: 20px;
+                        }
+                  }
+            }
+
+            .icons {
+                  display: flex;
+                  align-items: center;
+                  gap: 20px;
+            }
+      }
+}
