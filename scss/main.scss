@@ -195,6 +195,8 @@
                         img {
                               width: inherit;
                               height: inherit;
+                              border: 3px solid #CEC4BC;
+                              border-radius: 50%;
                         }
                   }
 
@@ -241,6 +243,7 @@
                         font-weight: 400;
                         line-height: 20px;
                         letter-spacing: 2px;
+                        text-transform: uppercase;
                   }
 
                   p {
@@ -255,6 +258,7 @@
 
 .proces {
       padding-bottom: 100px;
+
       &-content {
             .text {
                   display: flex;
@@ -291,10 +295,12 @@
                         padding: 10px 46px 10px 46px;
                         border-radius: 10px;
                         transition: all 0.3s linear;
-                        &:hover{
+
+                        &:hover {
                               background: #eeeded;
                               transform: translateY(-10px);
                         }
+
                         .icon {
                               width: 117px;
                               height: 102px;
@@ -326,12 +332,14 @@
             }
       }
 }
-.marble{
+
+.marble {
       background-image: url(../images/png/marble-bg.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       height: 70vh;
+
       &-content {
             width: 100%;
             display: flex;
@@ -348,6 +356,7 @@
                         font-weight: 400;
                         line-height: 20px;
                         letter-spacing: 2px;
+                        text-transform: uppercase;
                   }
 
                   p {
@@ -355,6 +364,239 @@
                         font-size: 16px;
                         font-weight: 400;
                         line-height: 24px;
+                  }
+            }
+      }
+}
+
+.prior {
+      background: #403E3B;
+      padding: 60px 0;
+
+      &-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+      }
+
+      &-left {
+            max-width: 450px;
+
+            span {
+                  color: #ECE7E4;
+                  text-transform: uppercase;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 20px;
+                  letter-spacing: 2px;
+            }
+
+            h1 {
+                  margin-bottom: 14px;
+                  color: #fff;
+                  font-size: 32px;
+                  font-weight: 400;
+                  line-height: 38px;
+            }
+
+            p {
+                  color: #ECE7E4;
+                  font-size: 15px;
+                  font-weight: 400;
+                  line-height: 24px;
+            }
+      }
+
+      &-right,
+      .item {
+            display: flex;
+            align-items: center;
+            gap: 100px;
+      }
+
+      &-right {
+            flex-direction: column;
+            padding: 40px;
+      }
+}
+
+.swirling {
+      background-image: url(../images/png/swirling-bg.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 70vh;
+
+      &-content {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: start;
+
+            .text {
+                  padding: 276px 0 266px;
+                  max-width: 300px;
+
+                  h3 {
+                        color: #403E3B;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        letter-spacing: 2px;
+                  }
+
+                  p {
+                        color: #645C55;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                  }
+            }
+      }
+}
+
+.projects {
+      background: #f7f7f7;
+      padding: 120px 0 100px 0;
+
+      &-content {
+            button {
+                  background: transparent;
+                  cursor: pointer;
+                  padding: 11px 20px;
+                  color: #1B1A1A;
+                  border: 0;
+                  outline: 0;
+                  display: block;
+                  margin: 0 auto;
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  letter-spacing: 0.4000000059604645px;
+            }
+
+            .title {
+                  max-width: 580px;
+                  margin-bottom: 42px;
+
+                  h1 {
+                        color: #1B1A1A;
+                        font-size: 39px;
+                        font-weight: 400;
+                        line-height: 42px;
+                        margin-bottom: 15px;
+                  }
+
+                  p {
+                        color: #645C55;
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 30px;
+                  }
+            }
+
+            .cards {
+                  display: grid;
+                  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                  gap: 18px;
+                  margin-bottom: 40px;
+
+                  .item.active {
+                        position: relative;
+
+                        .text {
+                              top: 40px;
+                              left: 40px;
+                        }
+
+                        button {
+                              bottom: 40px;
+                              left: 40px;
+                        }
+                  }
+
+                  .item:hover {
+                        .text {
+                              top: 40px;
+                              left: 40px;
+                        }
+
+                        button {
+                              bottom: 40px;
+                              left: 40px;
+                        }
+                  }
+
+                  .item {
+                        padding: 40px;
+                        height: 465px;
+                        overflow: hidden;
+                        position: relative;
+
+                        .text {
+                              position: absolute;
+                              top: -110%;
+                              left: 0;
+                              transition: all 0.5s ease-out;
+
+                              span {
+                                    color: #645C55;
+                                    text-transform: uppercase;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 20px;
+                                    letter-spacing: 2px;
+                              }
+
+                              h3 {
+                                    font-size: 23px;
+                                    font-weight: 400;
+                                    line-height: 30px;
+                                    color: #403E3B;
+                              }
+                        }
+
+                        button {
+                              background: #1B1A1A;
+                              border-radius: 14px;
+                              padding: 11px 20px;
+                              border: 0;
+                              outline: 0;
+                              color: #fff;
+                              font-size: 16px;
+                              font-weight: 400;
+                              line-height: 24px;
+                              letter-spacing: 0.4000000059604645px;
+                              position: absolute;
+                              bottom: -110%;
+                              left: 0;
+                              transition: all 0.5s ease-out;
+                              cursor: pointer;
+                        }
+                  }
+
+                  .item.item-1 {
+                        background: url(../images/png/card-img.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                  }
+
+                  .item.item-2 {
+                        background: url(../images/png/card-img-2.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+
+                  }
+
+                  .item.item-3 {
+                        background: url(../images/png/card-img-3.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+
                   }
             }
       }
