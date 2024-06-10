@@ -1,3 +1,10 @@
+@media (max-width: 990px) {
+      .team{
+            &-content{
+                  flex-direction: column;
+            }
+      }
+}
 @media (max-width:900px) {
       .firm{
             &-content{
@@ -39,6 +46,13 @@
                   padding: 0;
             }
       }
+      .touch{
+            &-content{
+                  flex-direction: column;
+                  gap: 25px;
+                  align-items: flex-start;
+            }
+      }
 }
 @media (max-width:540px) {
       .hero{
@@ -60,6 +74,12 @@
                   }
             }
       }
+      .footer{
+            &-content{
+                  flex-direction: column;
+                  align-items: flex-start;
+            }
+      }
 }
 @media (max-width: 480px) {
       .proces{
@@ -79,6 +99,15 @@
                         }
                         p{
                               font-size: 16px;
+                        }
+                  }
+            }
+      }
+      .touch{
+            &-content{
+                  .text{
+                        h1{
+                              font-size: 24px;
                         }
                   }
             }
